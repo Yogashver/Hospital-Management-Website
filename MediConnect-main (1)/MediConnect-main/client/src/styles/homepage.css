@@ -1,0 +1,93 @@
+.text-center{
+    color: #6fb0a8;
+}
+.card-body{
+    color: black;
+}
+
+.card-header{
+    color: black;
+}
+
+.m-2{
+ color: black;
+ padding: 10px;
+}
+
+.bool{
+    padding: 20px;
+    /* background-color: #6fb0a8; */
+    background: linear-gradient( #477872 0%, #6fb0a8 100%);
+    color:white;
+}
+
+.d-flex .ant-input{
+    border-radius: 10px;
+}
+
+/* .username{
+    border-radius: 10px;
+} */
+
+.m-2{
+    background-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+  
+}
+
+.chana{
+    background-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    /* background-image: url("images/dl.beatsnoop.com-high-18d8cb7ef345b36435-removebg-preview.png"); */
+}
+
+.mt-3{
+    border-radius: 10px;
+    background-color:  white;
+    border-width: 2px;
+}
+.box{
+    margin-left: 10px;
+}
+
+.dark{
+    color: #6fb0a8;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("images/nav-removebg-preview.png");  
+    background-repeat: "no-repeat";
+    background-color: #477872;
+}
+
+.lay{
+    /* border-radius: 20px; */
+    background-color: white;
+    border: none;
+}
+
+.button{
+    padding: 5px;
+    margin: 4px;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: white;
+    opacity: 1; /* Initial opacity */
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.button:hover{
+   background-color: white;
+}
+.bkl{
+   margin-left: 10px;
+}

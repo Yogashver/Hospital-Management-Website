@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("images/doc3.jpg");
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+.register-form {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 25px;
+  background-color: #6fb0a8;
+  /* border-radius: 30px; */
+  position: absolute; 
+  left:  0%;
+  height: 100%; 
+  width: 350px;
+  
+}
+
+.form {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  border-radius: 30px;
+  margin-top: 40px;
+  /* font-weight: bold; */
+}
+
+.form-style{
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.register-form .ant-input {
+  border-radius: 10px;
+}
+
+.register-form .ant-input:hover {
+  border-color: #0056b3;
+}
+
+.text{
+   font-size: 8vm;
+   color: black;
+   margin-left: -20%;
+   margin-bottom: 20%;
+   font-family: 'Poppins';
+   display: block;
+   opacity: 1; /* Set initial opacity */
+   transition: opacity 0.1s ease , display 0.1s;
+  
+}
+
+@media (max-width: 1360px){
+  .text{
+    /* display:none; */
+    opacity: 0;
+    pointer-events: none;
+    
+  }
+}
+.text h1{
+  margin-bottom: -10px; 
+  line-height: 1.5;
+  
+ 
+}
+.text h2{
+  margin-bottom: 10px; 
+  line-height: 1.5;
+}
+
+.text p{
+  margin-bottom: 1px; 
+  line-height: 1.5;
+
+}
+
+
+
+.m-2 {
+  margin: 10px;
+ padding: 40px;
+ color: white; 
+  cursor: pointer;
+  font-size: medium;
+}
+
+.ml-2{
+    color: black;
+}
+
+.ml-3:hover{
+  color: #0b3d72; 
+}
+
+.text-center{
+  color: black;
+}
+
+.ml-3{
+  color:white;
+}
+.m-2 a {
+  color:#0056b3; 
+  text-decoration: none;
+}
+
+.m-2 a:hover {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; 
+  color: #fff;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+}
